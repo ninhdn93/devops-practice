@@ -15,3 +15,4 @@ if [ -f "$LOG_FILE" ]; then
 else
     echo "Warning: $LOG_FILE does not exist!"
 fi
+# Lịch chạy cron gợi ý: */5 * * * * /path/to/check_log.sh
